@@ -1,0 +1,1 @@
+const e=e=>React.createElement("svg",{id:"icon",viewBox:"0 0 100 100",fill:e.color,xmlns:"http://www.w3.org/2000/svg",style:{maxHeight:e.maxHeight||"100%",maxWidth:e.maxWidth||"100%"}},React.createElement("use",{href:require(`../../Resources/regular/${e.type}.svg`)+"#"+e.type}));export{e as Icon};
