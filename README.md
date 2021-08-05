@@ -1,10 +1,15 @@
 React hand drawn icons
-== 
-This package contains a `<Icon/>` component which can be provided with a `type` prop and a `color` prop. 
+==
+This package contains an `<Icon/>` component which can be provided with a `type` prop and a `color` prop.
+
+![Demo hand-drawn-icons](https://github.com/nikhilol/hand-drawn-icons/blob/main/demo.gif?raw=true)
+
 
 Type
 -
-In this package the type corresponds to what type of icon you need. For  example `<Icon type="Star"/>` would produce a playful hand-drawn star as a react component.
+In this package the type corresponds to what type of icon you need. For example `<Icon type="Star"/>` would produce a playful hand-drawn star as a react component.
+
+**The available types are shown at the bottom.**
 
 Color
 -
@@ -12,13 +17,15 @@ The color prop corresponds to the desired stroke colour of the icon. This prop t
 
 For example, for a yellow star component, the react component could be;
 
-- `<Icon type="Star" color="#FFFF00"/>`
-- `<Icon type="Star" color="rgb(255, 255, 0)"/>`
-- `<Icon type="Star" color="rgba(255, 255, 0, 1)"/>`
+-  `<Icon type="Star" color="#FFFF00"/>`
 
-The available types are shown at the bottom.
+-  `<Icon type="Star" color="rgb(255, 255, 0)"/>`
 
-| Component | Preview | 
+-  `<Icon type="Star" color="rgba(255, 255, 0, 1)"/>`
+
+  
+
+| Component | Preview |
 |-|--|
 |Attachment|
 |Bar Graph|

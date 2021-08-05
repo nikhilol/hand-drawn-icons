@@ -1,6 +1,6 @@
 {
   "name": "hand-drawn-icons",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A set of hand drawn icons to import into your own projects via a react component",
   "main": "dist/index.js",
   "module" : "dist.index.es.js",
