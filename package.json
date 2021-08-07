@@ -1,9 +1,9 @@
 {
   "name": "hand-drawn-icons",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A set of hand drawn icons to import into your own projects via a react component",
   "main": "dist/index.js",
-  "module" : "dist.index.es.js",
+  "module": "dist.index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -21,11 +21,12 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@material-ui/core": "^4.12.3",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@storybook/addon-actions": "^6.3.6",
-    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.3.6",
     "@storybook/react": "^6.3.6",
     "babel-loader": "^8.2.2",

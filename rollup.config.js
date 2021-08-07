@@ -20,7 +20,9 @@ export default [
     plugins: [
         babel({
             exclude: 'node_modules/**',
-            presets: ['@babel/preset-react'],
+            presets: ["@babel/preset-env", ["@babel/preset-react", {
+        "runtime": "automatic"
+     }]],
         }),
         external(),
         resolve(),

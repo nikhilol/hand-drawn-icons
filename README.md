@@ -4,6 +4,9 @@ This package contains an `<Icon/>` component which can be provided with a `type`
 
 ![Demo hand-drawn-icons](https://github.com/nikhilol/hand-drawn-icons/blob/main/demo.gif?raw=true)
 
+-
+<a href="https://www.buymeacoffee.com/NikhilPatel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+-
 
 Type
 -
@@ -23,7 +26,10 @@ For example, for a yellow star component, the react component could be;
 
 -  `<Icon type="Star" color="rgba(255, 255, 0, 1)"/>`
 
-  
+maxWidth and maxHeight
+-
+These max size props do exactly the same as setting a `max-width` and `max-height` property in CSS. 
+
 
 | Icon Name | Preview | Usage |
 |-|--|---|
